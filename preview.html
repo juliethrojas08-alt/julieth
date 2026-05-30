@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HV - Julieth Alejandra Bastidas Rojas</title>
+  
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    :root{
+      --petroleo:#12343b; --verde:#1f6f78; --dorado:#d6a13a; --arena:#f4efe6;
+      --gris:#5f6b73; --texto:#1f2933; --blanco:#fff; --borde:#dfe6e9;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Segoe UI,Arial,sans-serif;background:#e9edf0;color:var(--texto);line-height:1.45}
+    .cv{max-width:1120px;margin:28px auto;background:var(--blanco);display:grid;grid-template-columns:32% 68%;box-shadow:0 18px 44px rgba(0,0,0,.16);border-radius:18px;overflow:hidden}
+    aside{background:linear-gradient(180deg,var(--petroleo),var(--verde));color:var(--blanco);padding:32px 26px}
+    .photo{text-align:center;margin-bottom:22px}.photo img{width:165px;height:165px;border-radius:50%;object-fit:cover;border:5px solid var(--dorado);background:#fff}
+    aside h2{font-size:15px;text-transform:uppercase;letter-spacing:.6px;margin:24px 0 11px;padding-bottom:8px;border-bottom:2px solid var(--dorado)}
+    aside p,aside li{font-size:13.2px;color:#eef6f7;margin-bottom:7px} aside ul{padding-left:17px}.contact a{color:#fff;text-decoration:none;word-break:break-word}.contact-item{display:flex;align-items:center;gap:12px;margin-bottom:14px;}.contact-item i{width:36px;height:36px;display:flex;align-items:center;justify-content:center;background:#0b2747;color:#4da3ff;border-radius:8px;font-size:15px;flex-shrink:0;}.contact-item span{color:#ffffff;font-size:13.5px;}
+    .buttons{display:flex;flex-direction:column;gap:10px;margin-top:16px}.btn{display:block;text-align:center;text-decoration:none;font-weight:800;border-radius:999px;padding:11px 12px;font-size:13px}.downloadcv{background:#d6a13a;color:#12343b;}.watermark-footer{position: fixed;bottom: 10px;width: 100%;text-align: center;font-size: 10px;font-weight: 700;letter-spacing: 2px;text-transform: uppercase;color: rgba(0,0,0,0.25);z-index: 9999;pointer-events: none;}.linkedin{background:#0a66c2;color:#fff}.whatsapp{background:#25d366;color:#073b1a}
+    main{padding:40px 46px;background:linear-gradient(180deg,#fff,#fbfbf8)}
+    header{border-bottom:4px solid var(--dorado);padding-bottom:20px;margin-bottom:25px}h1{font-size:38px;line-height:1.08;color:var(--petroleo);margin-bottom:8px}header h3{font-size:18px;color:var(--verde);margin-bottom:10px}header p{font-size:14.5px;color:var(--gris);max-width:760px}
+    section{margin-bottom:25px}.title{font-size:20px;color:var(--petroleo);margin-bottom:12px;display:flex;align-items:center;gap:10px}.title:before{content:"";width:10px;height:26px;background:var(--dorado);border-radius:10px}
+    .text{font-size:14.4px;text-align:justify}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:13px}.card{background:var(--arena);border-left:5px solid var(--dorado);padding:13px 15px;border-radius:12px;font-size:13.6px;font-weight:700;color:var(--petroleo)}
+    .tags{display:flex;flex-wrap:wrap;gap:9px}.tag{background:#eef6f7;border:1px solid #c7dfe3;color:var(--petroleo);border-radius:999px;padding:7px 12px;font-size:13px;font-weight:700}
+    .job{margin-bottom:22px;padding-bottom:18px;border-bottom:1px solid var(--borde)}.job:last-child{border-bottom:0}.role{font-size:17px;font-weight:900;color:var(--petroleo)}.company{font-size:14.5px;font-weight:800;color:var(--verde)}.date{font-size:13px;color:var(--gris);margin-bottom:9px}.job ul{padding-left:20px}.job li{font-size:14px;margin-bottom:7px}
+    .edu{margin-bottom:12px}.edu strong{display:block;color:var(--petroleo);font-size:14.5px}.edu span{font-size:13.5px;color:var(--gris)}
+    .footer{margin-top:25px;padding:15px;background:var(--petroleo);color:#fff;border-radius:12px;font-size:13px;text-align:center}
+    @media print{body{background:#fff}.cv{margin:0;max-width:100%;box-shadow:none;border-radius:0}a{text-decoration:none;color:inherit}}
+    @media(max-width:850px){.cv{grid-template-columns:1fr;margin:0;border-radius:0}main{padding:30px 24px}h1{font-size:30px}.grid{grid-template-columns:1fr}}
+  
+.watermark-last-page{
+    margin-top:80px;
+    padding-top:15px;
+    border-top:1px solid #d6a13a;
+    text-align:center;
+    font-size:10px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:rgba(0,0,0,0.35);
+}
+
+</style>
+</head>
+<body>
+  <div class="cv">
+    <aside>
+      <div class="photo"><img src="julieth_bastidas.jpg" alt="Foto Julieth Alejandra Bastidas Rojas" /></div>
+      <div class="contact">
+        <h2>Contacto</h2>
+		<div class="contact-item">
+			<i class="fas fa-phone"></i>
+			<span>+57 314 261 8769</span>
+		</div>
+
+		<div class="contact-item">
+			<i class="fas fa-envelope"></i>
+			<span>juliethrojas08@hotmail.com</span>
+		</div>
+
+		<div class="contact-item">
+			<i class="fas fa-location-dot"></i>
+			<span>Bogotá, Colombia</span>
+		</div>
+        <div class="buttons">
+          <a class="btn linkedin" href="https://co.linkedin.com/in/julieth-alejandra-bastidas-rojas-7a1414265" target="_blank">LinkedIn</a>
+          <a class="btn whatsapp" href="https://wa.me/qr/JZFL7CH2BBEYI1" target="_blank">WhatsApp</a>
+		  <a class="btn downloadcv" href="julieth_bastidas.pdf" target="_blank">Descargar HV</a>
+        </div>
+      </div>
+	  <h2>Formación académica</h2>
+	  <ul>
+        <li>Administración de Empresas | Fundación Universitaria del Área Andina | 2020</li>
+        <li>Tecnólogo en Gestión Empresarial  | Servicio Nacional de Aprendizaje - SENA | 2016</li>
+        <li>Diplomado en Costos | Politécnico de Colombia | 2022</li>
+        <li>Diplomado en Finanzas para no Financieros | Universidad de La Sabana | 2022</li>
+        <li>Diplomado en Planeación Estratégica | Fundación Universitaria del Área Andina | 2019</li>
+      </ul>
+      <h2>Competencias clave</h2>
+      <ul>
+        <li>Administración directa de contratos.</li>
+        <li>Control presupuestal y ejecución de costos.</li>
+        <li>Facturación, órdenes, recibidos y soportes.</li>
+        <li>Relación con contratistas y clientes internos.</li>
+        <li>Gestión documental contractual.</li>
+        <li>Informes gerenciales y seguimiento financiero.</li>
+        <li>Manejo confidencial de información técnica.</li>
+        <li>Procesos administrativos en Oil & Gas.</li>
+      </ul>
+      <h2>Herramientas y procesos</h2>
+      <ul>
+        <li>ORMB - Oracle Revenue Management and Billing.</li>
+        <li>Control de facturación y soportes.</li>
+        <li>Seguimiento de presupuesto anual.</li>
+        <li>Archivos físicos, digitales y bases de datos.</li>
+        <li>Reportes de costos y ejecución.</li>
+      </ul>
+      <h2>Idiomas</h2>
+      <p>Español nativo.</p>
+      <p>Inglés: En curso.</p>
+    </aside>
+    <main>
+      <header>
+        <h1>Julieth Alejandra Bastidas Rojas</h1>
+        <h3>Administradora de Contratos | Costos | Facturación | Oil & Gas</h3>
+        <p>Profesional en Administración de Empresas con trayectoria superior a 9 años en el sector Oil & Gas, con experiencia directa en administración de contratos, control presupuestal, facturación, seguimiento de costos, gestión documental contractual y coordinación administrativa de servicios asociados a áreas técnicas de exploración y geología.</p>
+      </header>
+      <section>
+        <h2 class="title">Perfil profesional</h2>
+        <p class="text">Profesional con experiencia en administración de contratos en el sector Oil & Gas, orientada al control contractual, financiero y presupuestal de servicios técnicos. Ha gestionado contratos, órdenes, recibidos, soportes, aprobaciones, facturación, seguimiento a ejecución presupuestal, control documental y consolidación de información para toma de decisiones gerenciales. Se destaca por su capacidad de organización, seguimiento a compromisos contractuales, manejo confidencial de información técnica, relacionamiento con contratistas, clientes internos y áreas usuarias, así como por su conocimiento de procesos administrativos y financieros en compañías del sector energético.</p>
+        <div class="grid">
+          <div class="card">+9 años de experiencia en Oil & Gas.</div>
+          <div class="card">Experiencia directa como administradora de contratos.</div>
+          <div class="card">Control de costos, presupuesto y facturación.</div>
+          <div class="card">Gestión documental y trazabilidad contractual.</div>
+        </div>
+      </section>
+      <section>
+        <h2 class="title">Competencias Profesionales</h2>
+        <div class="tags">
+          <span class="tag">Administración de contratos</span><span class="tag">Facturación contractual</span><span class="tag">Control de costos</span><span class="tag">Seguimiento presupuestal</span><span class="tag">Gestión documental</span><span class="tag">Oil & Gas</span><span class="tag">Contratistas</span><span class="tag">Reportes gerenciales</span><span class="tag">Gestión de proveedores</span><span class="tag">Confidencialidad</span>
+        </div>
+      </section>
+      <section>
+        <h2 class="title">Experiencia profesional</h2>
+        <article class="job">
+          <div class="role">Analista de Costos G&G / Administradora de Contratos</div>
+          <div class="company">Canacol Energy Ltd</div>
+          <div class="date">Enero 2023 - Mayo 2026 | Bogotá, Colombia</div>
+          <ul>
+            <li>Administración de contratos asociados a servicios y actividades del área de G&G, asegurando control documental, financiero, presupuestal y operativo.</li>
+            <li>Gestión de facturación, órdenes, recibidos, soportes, aprobaciones y ejecución de costos derivados de los contratos administrados.</li>
+            <li>Seguimiento al cumplimiento de compromisos contractuales, plazos de facturación, ejecución presupuestal y trazabilidad de procesos internos.</li>
+            <li>Coordinación con contratistas, clientes internos y áreas usuarias para garantizar la adecuada ejecución administrativa de los contratos.</li>
+            <li>Consolidación de información contractual, financiera y presupuestal para reportes de seguimiento y toma de decisiones gerenciales.</li>
+          </ul>
+        </article>
+        <article class="job">
+          <div class="role">Auxiliar Administrativa / Administración Operativa de Contratos</div>
+          <div class="company">Canacol Energy Ltd</div>
+          <div class="date">Octubre 2016 - Diciembre 2022 | Bogotá, Colombia</div>
+          <ul>
+            <li>Administración operativa y documental de contratos del área de G&G, incluyendo generación de órdenes, recibidos, validación de soportes y control de aprobaciones.</li>
+            <li>Seguimiento al cumplimiento de plazos de facturación y ejecución anual del presupuesto asociado a contratos y servicios del área.</li>
+            <li>Gestión de información contractual y técnica con clientes internos, externos y contratistas, asegurando confidencialidad y trazabilidad documental.</li>
+            <li>Elaboración y consolidación de informes para gerencia relacionados con control presupuestal, ejecución de costos y seguimiento contractual.</li>
+            <li>Gestión de tiquetes, aprobaciones y documentación requerida para garantizar la continuidad de actividades y cumplimiento de requisitos internos.</li>
+          </ul>
+        </article>
+        <article class="job">
+          <div class="role">Aprendiz SENA</div>
+          <div class="company">Canacol Energy Ltd</div>
+          <div class="date">Junio 2015 - Diciembre 2015 | Bogotá, Colombia</div>
+          <ul>
+            <li>Apoyo administrativo y documental al área de G&G mediante generación, control y organización de documentos para procesos de facturación.</li>
+            <li>Gestión y organización de archivos físicos y digitales, manejo de inventarios de información técnica y actualización de bases de datos.</li>
+            <li>Apoyo en la recopilación, validación y suministro de información requerida por entidades gubernamentales en Colombia.</li>
+            <li>Manejo adecuado, disponible y confidencial de la información administrativa y técnica del área.</li>
+          </ul>
+        </article>
+      </section>
+      <section>
+        
+      
+    
+<div class="watermark-last-page">
+HV DE JULIETH ALEJANDRA BASTIDAS | CONFIDENCIAL
+</div>
+</main>
+  </div>
+  
+</body>
+</html>
